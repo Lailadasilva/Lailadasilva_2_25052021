@@ -83,7 +83,8 @@ a {
   margin-bottom: 30px;
 }
 
-.filtre {
+.filtre,
+.info {
   display: flex;
   align-items: center;
 }
@@ -117,4 +118,14 @@ i.flexcentre {
 .alignfiltre {
   display: flex;
   flex-direction: row;
+}
+
+.fas,
+.bloc-filtres h3 {
+  margin-right: 15px;
+}
+
+/* HEBERGEMENTS*/
+.margestar {
+  margin-top: 50px;
 }
