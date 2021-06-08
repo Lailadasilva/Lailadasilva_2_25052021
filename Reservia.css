@@ -127,13 +127,33 @@ i.flexcentre {
 
 /* HEBERGEMENTS*/
 .bloc1 {
-  border-radius: 50px;
+  flex: 2;
   background-color: #f2f2f2;
+  height: 650px;
+  width: 750px;
   padding: 20px;
-  border-right: 10px;
+  border-radius: 15px;
 }
+.bloc2 {
+  flex: 1;
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: 400px;
+  height: 650px;
+  padding: 20px;
+}
+
 .carte {
-  border-radius: 30px;
   background-color: white;
-  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  height: 215px;
+  padding: 20px;
+}
+.carte2 {
+  background-color: white;
+  border-radius: 15px;
+  width: 400px;
+  height: 100px;
+  padding: 20px;
 }
