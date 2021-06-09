@@ -126,11 +126,13 @@ i.flexcentre {
 }
 
 /* HEBERGEMENTS*/
+.part1 {
+  display: flex;
+  flex-wrap: wrap;
+}
 .bloc1 {
   flex: 2;
   background-color: #f2f2f2;
-  height: 650px;
-  width: 750px;
   padding: 20px;
   border-radius: 15px;
 }
@@ -138,22 +140,39 @@ i.flexcentre {
   flex: 1;
   background-color: #f2f2f2;
   border-radius: 15px;
-  width: 400px;
-  height: 650px;
   padding: 20px;
 }
 
 .carte {
   background-color: white;
   border-radius: 15px;
-  width: 200px;
-  height: 215px;
+  height: 250px;
+  width: 150;
   padding: 20px;
 }
+
 .carte2 {
   background-color: white;
   border-radius: 15px;
-  width: 400px;
-  height: 100px;
+  height: 250px;
+  width: 300px;
+  padding: 20px;
+}
+
+/*ACTIVITES A MARSEILLE*/
+.Activites {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.blocactivites {
+  width: 100%;
+  height: 600px;
+}
+
+.carteactivites {
+  background-color: white;
+  border-radius: 15px;
+  width: 200px;
+  height: 400px;
   padding: 20px;
 }
