@@ -151,14 +151,18 @@ i.flexcentre {
 .carte {
   background-color: white;
   border-radius: 20px;
-  height: 200px;
-  width: 150;
   padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 .bordurecarte {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.bordurecarte2{
+  border: left radius 10px;
+}
+
 .etoilebleu {
   color: #0065fc;
 }
@@ -170,8 +174,6 @@ i.flexcentre {
   background-color: white;
   border-radius: 15px;
   background-position: center;
-  height: 160px;
-  width: 80%;
   padding: 10px;
 }
 
@@ -188,10 +190,13 @@ i.flexcentre {
 }
 
 /* BAS DE PAGE*/
-.colonnefooter {
+.fondfooter {
   background-color: #f2f2f2;
 }
-.footer {
+.colonne {
   display: flex;
-  padding: 20px;
+  flex-direction: column;
+  justify-content:space-around
+  align-items: center;
+  
 }
