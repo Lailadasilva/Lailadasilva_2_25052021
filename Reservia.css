@@ -150,17 +150,19 @@ i.flexcentre {
 }
 .carte {
   background-color: white;
-  border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  border-bottom: 15px;
+  margin-bottom: 15px;
   margin-left: 30px;
 }
 .bordurecarte {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.bordurecarte2{
-  border: left radius 10px;
+.bordurecarte2 {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .etoilebleu {
@@ -172,31 +174,27 @@ i.flexcentre {
 
 .carte2 {
   background-color: white;
-  border-radius: 15px;
-  background-position: center;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 /*ACTIVITES A MARSEILLE*/
-.Activites {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.carteactivites {
-  border-radius: 30px;
-
-  padding: 20px;
+.carte3 {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /* BAS DE PAGE*/
 .fondfooter {
   background-color: #f2f2f2;
 }
-.colonne {
+
+.blocfooter {
+  height: 150px;
+  margin-left: 50px;
+}
+.flexbetween {
   display: flex;
-  flex-direction: column;
-  justify-content:space-around
-  align-items: center;
-  
+  justify-content: space-around;
 }
