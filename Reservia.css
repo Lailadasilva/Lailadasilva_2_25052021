@@ -2,6 +2,7 @@
 html,
 body {
   font-family: "Raleway";
+  margin: 0 1rem;
 }
 /*LOGO*/
 
@@ -181,8 +182,7 @@ i.flexcentre {
 /*ACTIVITES A MARSEILLE*/
 .carte3 {
   background-color: white;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px;
 }
 
 /* BAS DE PAGE*/
