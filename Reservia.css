@@ -184,7 +184,17 @@ i.flexcentre {
   background-color: white;
   border-radius: 20px;
 }
-
+.colonne-activites {
+  flex: 1;
+}
+.liste-activites {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
+.carte-activites img {
+  width: 100%;
+}
 /* BAS DE PAGE*/
 .fondfooter {
   background-color: #f2f2f2;
