@@ -47,6 +47,7 @@ a {
 }
 
 .recherche {
+  font-weight: bold;
   height: 50px;
   width: 230px;
   font-size: 18px;
@@ -124,6 +125,9 @@ i.flexcentre {
 .fas,
 .bloc-filtres h3 {
   margin-right: 15px;
+}
+.bloc-filtres p {
+  font-weight: bold;
 }
 
 /* HEBERGEMENTS*/
