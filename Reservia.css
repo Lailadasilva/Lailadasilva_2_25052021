@@ -217,7 +217,8 @@ i.flexcentre {
 /*ACTIVITES A MARSEILLE*/
 .carte3 {
   background-color: white;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .colonne-activites {
   flex: 1;
@@ -226,6 +227,10 @@ i.flexcentre {
   display: flex;
   flex-direction: row;
   gap: 2em;
+}
+.carte-activites {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 .carte-activites img {
   width: 100%;
