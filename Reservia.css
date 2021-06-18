@@ -135,6 +135,7 @@ i.flexcentre {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-top: 2em;
 }
 .bloc-resultats {
   flex: 2;
