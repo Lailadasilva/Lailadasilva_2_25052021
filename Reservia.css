@@ -2,7 +2,7 @@
 html,
 body {
   font-family: "Raleway";
-  margin: 0 1rem;
+  margin: 1rem;
 }
 /*LOGO*/
 
@@ -21,6 +21,10 @@ nav {
 nav,
 a {
   margin: 0 10px 0 20px;
+}
+.bordurenav :hover {
+  cursor: pointer;
+  border-top: 2px solid #0065fc;
 }
 .styldebase {
   text-decoration: none;
@@ -110,6 +114,7 @@ a {
   width: 45px;
   height: 45px;
   color: #0065fc;
+  margin-right: 1em;
 }
 
 i.flexcentre {
@@ -131,6 +136,7 @@ i.flexcentre {
 }
 
 /* HEBERGEMENTS*/
+
 #resultats-et-suggestions {
   display: flex;
   flex-wrap: wrap;
@@ -142,6 +148,7 @@ i.flexcentre {
   background-color: #f2f2f2;
   padding: 20px;
   border-radius: 15px;
+  margin-bottom: 1em;
 }
 
 .bloc-resultats .carte h3,
@@ -155,23 +162,35 @@ i.flexcentre {
   background-color: #f2f2f2;
   border-radius: 15px;
   padding: 20px;
+  margin-bottom: 1em;
 }
 
-.cartes {
+.cartes  {
   display: flex;
   flex-wrap: wrap;
+  
 }
-.carte {
+.carte{
   background-color: white;
   border-radius: 15px;
   padding: 5px;
   border-bottom: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-left: 30px;
+  width: 250px;
+  
+  
+}
+
+}
+.carte img {
+  width: 100%;
 }
 .bordurecarte {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  width: 250px; 
+  height: 100px;
 }
 .bordurecarte2 {
   border-top-left-radius: 20px;
@@ -193,7 +212,7 @@ i.flexcentre {
   background-color: white;
   border-radius: 20px;
   padding: 5px;
-  margin-top: 1em;
+  margin-top: 0.3em;
   margin-bottom: 1em;
   height: 150px;
   gap: 1em;
@@ -231,18 +250,37 @@ i.flexcentre {
 .carte-activites {
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
+  margin-top: 2em;
 }
 .carte-activites img {
   width: 100%;
 }
+.texte-activite {
+  display: flex;
+  justify-content: start;
+  margin-left: 1em;
+}
+.activite1{
+  height: 400px;
+}
+.activite2{
+height: 190px;
+}
+.activite3{
+  height:110px
+}
+.activite4{
+  height:150px
+}
 /* BAS DE PAGE*/
 .fondfooter {
   background-color: #f2f2f2;
+  margin-top: 2em;
 }
 
 .blocfooter {
-  height: 150px;
-  margin-left: 50px;
+  height: 200px;
+  
 }
 .flexbetween {
   display: flex;
