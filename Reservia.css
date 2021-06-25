@@ -165,12 +165,11 @@ i.flexcentre {
   margin-bottom: 1em;
 }
 
-.cartes  {
+.cartes {
   display: flex;
   flex-wrap: wrap;
-  
 }
-.carte{
+.carte {
   background-color: white;
   border-radius: 15px;
   padding: 5px;
@@ -178,18 +177,15 @@ i.flexcentre {
   margin-bottom: 30px;
   margin-left: 30px;
   width: 250px;
-  
-  
 }
 
-}
 .carte img {
   width: 100%;
 }
 .bordurecarte {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  width: 250px; 
+  width: 250px;
   height: 100px;
 }
 .bordurecarte2 {
@@ -260,17 +256,17 @@ i.flexcentre {
   justify-content: start;
   margin-left: 1em;
 }
-.activite1{
+.activite1 {
   height: 400px;
 }
-.activite2{
-height: 190px;
+.activite2 {
+  height: 190px;
 }
-.activite3{
-  height:110px
+.activite3 {
+  height: 110px;
 }
-.activite4{
-  height:150px
+.activite4 {
+  height: 150px;
 }
 /* BAS DE PAGE*/
 .fondfooter {
@@ -280,7 +276,6 @@ height: 190px;
 
 .blocfooter {
   height: 200px;
-  
 }
 .flexbetween {
   display: flex;

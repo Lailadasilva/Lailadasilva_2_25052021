@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    margin: 0;
+  }
+  .liste-filtres {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .liste-activites {
+    display: flex;
+    flex-direction: column;
+  }
+  .barre-recherche {
+    display: none;
+  }
+  .recherche {
+  }
+
+  .logo-pin,
+  .buttonsearch {
+    width: 52px;
+  }
+  #resultats-et-suggestions {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bloc-resultats,
+  .bloc-suggestions {
+    padding: 0;
+  }
+}
