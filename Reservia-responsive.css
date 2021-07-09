@@ -29,4 +29,12 @@
   .bloc-suggestions {
     padding: 0;
   }
+  .fondfooter {
+    display: flex;
+    flex-direction: column;
+  }
+  .blocfooter {
+    margin: 0 1em;
+    height: auto;
+  }
 }
