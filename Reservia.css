@@ -2,7 +2,12 @@
 html,
 body {
   font-family: "Raleway";
-  margin: 1rem;
+  margin: 0;
+}
+section,
+nav {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 /*LOGO*/
 
@@ -13,7 +18,7 @@ header {
 /*NAVIGATION*/
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   margin-top: 2rem;
   padding-right: 2rem;
@@ -22,21 +27,22 @@ nav,
 a {
   margin: 0 10px 0 20px;
 }
-.bordurenav :hover {
-  cursor: pointer;
-  border-top: 2px solid #0065fc;
-}
-.styldebase {
+.barre-nav a {
   text-decoration: none;
-}
-.colorlien {
-  color: blue;
-}
-.colorlien2 {
   color: black;
+  padding-top: 10%;
 }
-.bordure {
-  border-top: 1px solid blue;
+.barre-nav {
+  display: flex;
+  align-items: flex-end;
+}
+.barre-nav a:hover,
+.barre-nav a.active {
+  border-top: 2px solid blue;
+  font-weight: bold;
+  color: #0065fc;
+}
+
 }
 /*BORDURE SEARCH*/
 .flexcentre {
@@ -84,7 +90,7 @@ a {
 }
 /*FILTRES*/
 
-.liste-filtres{
+.liste-filtres {
   display: flex;
   flex-wrap: wrap;
 }
