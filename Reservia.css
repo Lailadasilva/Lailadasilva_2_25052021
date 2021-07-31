@@ -234,8 +234,8 @@ i.flexcentre {
   background-color: white;
   border-radius: 20px;
   padding: 5px;
-  margin-top: 0.3em;
-  margin-bottom: 1em;
+  margin: 0.5em;
+
   height: 150px;
   gap: 1em;
 }
