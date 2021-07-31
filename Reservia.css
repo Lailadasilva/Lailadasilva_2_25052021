@@ -42,8 +42,10 @@ a {
   font-weight: bold;
   color: #0065fc;
 }
-
+.barre-nav a.bouton-inscription {
+  color: #0065fc;
 }
+
 /*BORDURE SEARCH*/
 .flexcentre {
   display: flex;
