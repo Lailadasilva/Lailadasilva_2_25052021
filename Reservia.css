@@ -46,6 +46,9 @@ a {
   font-weight: bold;
   color: #0065fc;
 }
+.barre-nav.desktop a {
+  padding-top: 0.7em;
+}
 a.bouton-inscription {
   color: #0065fc;
   font-weight: bold;
