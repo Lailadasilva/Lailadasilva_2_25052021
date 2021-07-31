@@ -10,6 +10,12 @@ nav {
   margin-right: 1rem;
 }
 /*LOGO*/
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
 
 header {
   margin-top: 2rem;
@@ -300,4 +306,12 @@ i.flexcentre {
 .flexbetween {
   display: flex;
   justify-content: space-around;
+}
+
+/* HIDE RESPONSIVE*/
+.desktop {
+  display: initial;
+}
+.responsive {
+  display: none;
 }

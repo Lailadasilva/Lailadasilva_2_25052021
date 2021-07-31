@@ -1,12 +1,38 @@
 @media (max-width: 768px) {
+  /* DISPLAY RESPONSIVE CLASS*/
+  .desktop {
+    display: none;
+  }
+  .responsive {
+    display: initial;
+  }
   html,
   body {
     margin: 0;
   }
+  nav.barre-nav.responsive {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  nav.barre-nav.responsive a {
+    flex: 1;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 0;
+    border: none;
+    border-bottom: 2px solid lightgray;
+  }
+  nav.barre-nav.responsive a:active,
+  nav.barre-nav.responsive a:focus {
+    border-color: blue;
+  }
+
   .liste-filtres {
     display: flex;
     flex-wrap: wrap;
   }
+
   .liste-activites {
     display: flex;
     flex-direction: column;
