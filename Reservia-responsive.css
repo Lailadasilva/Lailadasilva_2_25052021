@@ -24,7 +24,8 @@
     border-bottom: 2px solid lightgray;
   }
   nav.barre-nav.responsive a:active,
-  nav.barre-nav.responsive a:focus {
+  nav.barre-nav.responsive a:focus,
+  nav.barre-nav.responsive a.active {
     border-color: blue;
   }
 

@@ -197,6 +197,11 @@ i.flexcentre {
   gap: 1.5em;
   margin-bottom: 30px;
 }
+
+.voir-plus {
+  font: size 1.2em;
+  font-weight: 700;
+}
 .carte {
   background-color: white;
   border-radius: 15px;
