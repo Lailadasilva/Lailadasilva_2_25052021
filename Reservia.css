@@ -205,6 +205,11 @@ i.flexcentre {
   margin-left: 30px;
   width: 250px;
 }
+.carte:hover,
+.carte2:hover,
+.carte-activites:hover {
+  transform: scale(1.05);
+}
 
 .carte img {
   width: 100%;
