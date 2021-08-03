@@ -53,6 +53,10 @@
   .bloc-suggestions {
     padding: 0;
   }
+  .bloc-cartes-hebergements {
+    display: flex;
+    flex-direction: column;
+  }
   .fondfooter {
     display: flex;
     flex-direction: column;
