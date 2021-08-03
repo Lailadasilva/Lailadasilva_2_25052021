@@ -192,18 +192,17 @@ i.flexcentre {
   margin-bottom: 1em;
 }
 
-.cartes {
+.bloc-cartes-hebergements {
   display: flex;
-  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-bottom: 30px;
 }
 .carte {
   background-color: white;
   border-radius: 15px;
   padding: 5px;
   border-bottom: 15px;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  width: 250px;
+  flex: 1;
 }
 .carte:hover,
 .carte2:hover,
